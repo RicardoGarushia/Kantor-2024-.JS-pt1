@@ -1,0 +1,1 @@
+alert("¡Hola mundo!\n¡Soy un script de Javascript externo al archivo .php (o .html)!\nEstoy en carpetaJS/alerta.js\n(Usted disculpe la redundancia)");
