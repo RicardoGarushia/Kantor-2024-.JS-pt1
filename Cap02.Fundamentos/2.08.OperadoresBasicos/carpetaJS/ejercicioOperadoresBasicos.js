@@ -16,8 +16,6 @@ let z = 1 + (a *= 2);   // SALIDA: a = 4; x =5;
 alert( `Los valores de x y z son: ${a} y ${z}` );
 
 
-
-
 let numeroA = Number(prompt("¿Primer número?", 1));
 let numeroB = Number(prompt("¿Segundo número?", 2));
 alert(numeroA + numeroB);   // SALIDA: 12  
