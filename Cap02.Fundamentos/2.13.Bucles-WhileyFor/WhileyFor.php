@@ -21,12 +21,12 @@
     <p>
         ¿Cuál es el último valor mostrado en alerta por este código? ¿Por qué?
     </p>
-    <code>
-        let i = 3;          <br>
-        while (i) {         <br>
-            alert( i-- );   <br>
+    <pre><code>
+        let i = 3;
+        while (i) {
+            alert( i-- );
         }
-    </code>
+    </code></pre>
     <br><br><br>
     
 
@@ -41,17 +41,17 @@
         <ol>
             <li>
                 // La forma de prefijo <code>++i</code> (pre-incremento): <br>
-                <code>
-                    let A = 0;                      <br>
-                    while (++A < 5) {alert( A )};   <br>
-                </code>
+                <pre><code>
+                    let A = 0;
+                    while (++A < 5) {alert( A )};
+                </code></pre>
             </li>
             <li>
                 // La forma de sufijo <code>i++</code> (post-incremento): <br>
-                <code>
-                    let B = 0;                      <br>
-                    while (B++ < 5) {alert( B )};   <br>
-                </code>
+                <pre><code>
+                    let B = 0;
+                    while (B++ < 5) {alert( B )};
+                </code></pre>
             </li>
         </ol>
     </p>
@@ -69,19 +69,19 @@
         <ol>
             <li>
                 // La forma de prefijo <code>++i</code> (pre-incremento): <br>
-                <code>
-                    for (let i = 0; i < 5; ++i){    <br>
-                    alert( i );                     <br>
-                    }                               <br>
-                </code>
+                <pre><code>
+                    for (let i = 0; i < 5; ++i){
+                        alert( i );
+                    }
+                </code></pre>
             </li>
             <li>
                 // La forma de sufijo <code>i++</code> (post-incremento): <br>
-                <code>
-                    for (let i = 0; i < 5; i++){    <br>
-                    alert( i );                     <br>
-                    }                               <br>
-                </code>
+                <pre><code>
+                    for (let i = 0; i < 5; i++){
+                        alert( i );
+                    }
+                </code></pre>
             </li>
         </ol>
     </p>
@@ -103,13 +103,13 @@
     <p>
         Reescribe el código cambiando el bucle <code>for</code> a <code>while</code> sin alterar su comportamiento (la salida debería ser la misma).
     </p>
-    <code>
-        for (let i = 0; i < 3; i++) {   <br>
-            alert( `número ${i}!` );    <br>
-        }                               <br>
-    </code>
+    <pre><code>
+        for (let i = 0; i < 3; i++) {
+            alert( `número ${i}!` );
+        }
+    </code></pre>
     <br><br><br>
-
+    
 
     <h3>
         2.13.6. EJERCICIO: Repite hasta que la entrada sea correcta
@@ -122,6 +122,30 @@
     </p>
     <p>
         Aquí podemos asumir que el usuario solo ingresará números. No hay necesidad de implementar un manejo especial para entradas no numéricas en esta tarea.
+    </p>
+    <br><br><br>
+
+ 
+    <h3>
+        2.13.7. EJERCICIO: Muestra números primos
+    </h3>
+    <p>
+        Un número entero mayor que <code>1</code> es llamado primo si no puede ser dividido sin un resto por ningún número excepto <code>1</code> y él mismo.
+    </p>
+    <p>
+        En otras palabras, <code>n > 1</code> es un primo si no puede ser divido exactamente por ningún número excepto <code>1</code> y <code>n</code> .
+    </p>
+    <p>
+        Por ejemplo, <code>5</code> es un primo, porque no puede ser divido exactamente por <code>2</code> , <code>3</code> y <code>4</code>.
+    </p>
+    <p>
+        Escribe el código que muestre números primos en el intervalo de <code>2</code> a <code>n</code>.
+    </p>
+    <p>
+        Para <code>n = 10</code> el resultado será <code>2</code>, <code>3</code>, <code>5</code>, <code>7</code>.
+    </p>
+    <p>
+        PD. El código debería funcionar para cualquier n , no debe estar programado para valores fijos.
     </p>
     <br><br><br>
 

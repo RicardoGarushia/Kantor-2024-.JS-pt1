@@ -108,11 +108,11 @@
     <p>
         ¿Cuáles serán los resultados de las expresiones dentro de <code>if(...)</code>?
     </p>
-    <code>
-        if (-1 || 0) {alert( "primero" )};        <br>
-        if (-1 && 0) {alert( "segundo" )};        <br>
+    <pre><code>
+        if (-1 || 0) {alert( "primero" )};
+        if (-1 && 0) {alert( "segundo" )};
         if (null || -1 && 1) {alert( "tercero" )};
-    </code>
+    </code></pre>
     <br><br><br>
 
 
