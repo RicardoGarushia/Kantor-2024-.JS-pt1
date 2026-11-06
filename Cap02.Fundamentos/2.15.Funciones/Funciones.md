@@ -36,11 +36,11 @@ mostrarMensaje();
 Podemos pasar datos arbitrarios a las funciones utilizando parámetros.
 
 ```javascript
-function mostrarMensaje(de, texto = "sin texto especificado") {
-  alert(de + ": " + texto);
+function mostrarMensaje(autor, texto = "Sin texto especificado") {
+  alert(autor + ": " + texto);
 }
 
-mostrarMensaje('Ann'); // Ann: sin texto especificado
+mostrarMensaje('Ann');  // SALIDA: "Ann: sin texto especificado"
 ```
 
 ---
